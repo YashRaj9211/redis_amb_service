@@ -1,0 +1,41 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Ignore IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore testing and coverage
+coverage/
+.nyc_output/
+
+# Ignore misc files
+*.swp
+*.swo
